@@ -1,0 +1,287 @@
+ /* Estilo general */
+body {
+    background-color: black;
+    color: #006400; /* Verde oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: auto; /* Centra el contenido */
+    padding: 20px;
+}
+
+/* Encabezados y textos */
+h1, h2, h3, p, a {
+    color: #008000;
+    margin: 20px; /* Separa los textos de los bordes */
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00cc00;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Botones */
+button {
+    background-color: #008000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #006400;
+}
+
+/* Formularios */
+form {
+    background-color: #222;
+    padding: 41px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="email"], input[type="password"] {
+    background-color: #333;
+    color: #00cc00;
+}
+
+input::placeholder {
+    color: #008000;
+}
+/* Centrar todos los párrafos */
+p {
+    text-align: center;
+    margin: 30px auto; /* Espaciado y centrado */
+    width: 85%; /* Reduce el ancho para mejor lectura */
+}
+/* Centrar los títulos */
+h1, h2, h3 {
+    text-align: center;
+    margin: 20px auto; /* Espaciado y centrado */
+    width: 80%; /* Limita el ancho para mejorar la presentación */
+}
+/* Centrar los videos */
+iframe {
+    display: block; /* Hace que el video ocupe toda la línea */
+    margin: 20px auto; /* Centra el video horizontalmente */
+    width: 70%; /* Ajusta el tamaño */
+}
+/* Centrar la imagen */
+img {
+    display: block; /* Permite centrar la imagen */
+    margin: 20px auto; /* Espaciado y centrado */
+    width: 15%; /* Ajusta el tamaño de la imagen */
+}
+/* Agregar padding al contenedor principal */
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 40px; /* Espaciado interno */
+    text-align: center;
+}
+
+/* Espaciado en secciones */
+section {
+    padding: 30px; /* Añade espacio dentro de cada sección */
+}
+
+/* Formularios */
+form {
+    padding: 41px;
+    margin: 30px auto;
+}
+
+/* Encabezados y textos */
+h1, h2, h3, p {
+    padding: 10px; /* Espacio extra dentro de los textos */
+}
+/* Aplica el borde solo a partir de la segunda página */
+body:not(:first-of-type) {
+    border: 100px solid white;
+    margin: 100px;
+    padding: 100px;
+}
+/* Aplica un borde blanco solo a las páginas con la clase "borde" */
+.borde {
+    border: 0px solid white;
+    margin: 30px;
+    padding: 30px;
+}
+/* Contenedor de contenido con imagen a la derecha */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* Imagen alineada a la derecha */
+.contenido img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+/* Fondo y texto general */
+body {
+  background-color: black;
+  color: #006400;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bordes para páginas secundarias */
+.borde {
+  border: 5px solid white;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Cabecera y títulos */
+header, footer {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00cc00;
+  margin-bottom: 10px;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #00cc00;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* Contenido estilo artículo */
+.articulo {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.articulo .texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.articulo img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+/* Listas */
+ul {
+  list-style: square inside;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+footer p {
+  color: #008000;
+}
+/* Estilo para sección de servicios */
+.articulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.articulo .texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.articulo img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+/* Listas dentro de la sección */
+.articulo ul {
+  list-style: square inside;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.articulo li {
+  margin-bottom: 10px;
+}
